@@ -13,17 +13,17 @@ Yamagata QA-Distiller 9* (https://www.yamagata-europe.com/en-gb/qa-distiller)
 *last successfully checked version
 
 ## Configuration
-#### QADistiller - Installation 
+### QADistiller - Installation 
 The QA Distiller must be installed on the server. The storage location should normally be %ProgramFiles(x86)%\Yamagata\QADistiller9\
-#### QADistiller - Settings / Profiles
+### QADistiller - Settings / Profiles
 The settings or profiles for later processing should be defined for each customer. For this purpose, the QA Distiller normally uses a Userlists folder. You can find more information here:
 https://www.qa-distiller.com/help/en-us/concept/co_about_user_lists.html
 Attention: At present, only one profile per customer can actually be used by the integration
 
-#### Plunet - Customer Profile
+### Plunet - Customer Profile
 Each customer has his own folder in Plunet BusinessManager. The customer specific profile (QADistiller Userlist folder) should be stored here. The folder must have the same name in every customer profile (e.g. QASettings).
 
-#### Plunet - Storing the Script
+### Plunet - Storing the Script
 The script to start the process must be stored in the Plunet document directory (where the folders Order, Customer, etc. are located). Ideally you name this folder App and put the qadistiller.bat file there.
 If you decide to use a different path or file name, this has to be adjusted in the definition of the program call.
 
