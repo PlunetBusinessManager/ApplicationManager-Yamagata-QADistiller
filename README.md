@@ -56,6 +56,8 @@ The following work steps are then performed:
   -	The original bilingual data and terminology data as well as the QA result as HTML file are moved into the IN folder of the QADistiller job (they are automatically available for the resource of the follow-up job)
 -	The QA Distiller job is automatically set to delivered, the "relevant" follow-on job is automatically started, if assigned and waiting.
 
+## License
+Distributed under the MIT License. See LICENSE for more information.
 
 
 
